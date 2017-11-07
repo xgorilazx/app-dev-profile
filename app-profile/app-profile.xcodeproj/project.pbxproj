@@ -54,14 +54,38 @@
 		AE486F481FA11908007EFD8D /* app-profile */ = {
 			isa = PBXGroup;
 			children = (
+				AE486F5D1FAA252A007EFD8D /* Controller */,
+				AE486F5C1FAA2521007EFD8D /* View */,
+				AE486F5B1FAA2512007EFD8D /* Model */,
 				AE486F491FA11908007EFD8D /* AppDelegate.swift */,
-				AE486F4B1FA11908007EFD8D /* ViewController.swift */,
 				AE486F4D1FA11908007EFD8D /* Main.storyboard */,
 				AE486F501FA11908007EFD8D /* Assets.xcassets */,
 				AE486F521FA11908007EFD8D /* LaunchScreen.storyboard */,
 				AE486F551FA11908007EFD8D /* Info.plist */,
 			);
 			path = "app-profile";
+			sourceTree = "<group>";
+		};
+		AE486F5B1FAA2512007EFD8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE486F5C1FAA2521007EFD8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE486F5D1FAA252A007EFD8D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE486F4B1FA11908007EFD8D /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
